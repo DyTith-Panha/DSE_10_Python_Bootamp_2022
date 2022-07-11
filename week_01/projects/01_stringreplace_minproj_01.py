@@ -28,7 +28,7 @@ elif User_Input == 'Y' and 'y' :
 else:
     print('"Please give a proper input"')
     User_Input = str(input("Do you want to replace the text[Y/N]: "))
-    if User_Input == 'N':
+    if User_Input == 'N' and 'n':
         User_Input_Again  = str(input("Oh! you don’t like to replace, Do you want to check again [Y/N]?"))
         if User_Input_Again  == 'Y':
             Paragraph_String = str(input("Enter paragraph: "))
